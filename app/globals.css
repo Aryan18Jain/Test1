@@ -1,0 +1,137 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}  
+
+/* Container for centering the login form */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Styling for the login form */
+.login-form {
+  background: #2d2d2d;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(239, 236, 236, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Heading styling */
+.login-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #e0e0e0;
+}
+
+/* Form group styling */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #e0e0e0;
+}
+
+/* Input field styling */
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Button styling */
+.login, .register {
+  width: 100%;
+  padding: 10px;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login:hover, .register:hover {
+  background-color: #87ceeb;
+}
+
+.error{
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #ff0000;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.register_text{
+  margin-top: 20px;
+  margin-left: 40%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.register_text span{
+  text-decoration: underline;
+}
+
+.contentbox{
+  background-color:#2d2d2d;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(239, 236, 236, 0.1);
+}
+
+.content{
+  color: #ddd;
+  /* padding: 8px; */
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.content span{
+  font-weight: 700;
+}
+
+.logout{
+  background-color: #ff0000;
+  color: white;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.logout:hover{
+  background-color: #b81c1c;
+}
